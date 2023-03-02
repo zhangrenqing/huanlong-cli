@@ -1,0 +1,37 @@
+{
+  "id": "3911663",
+  "name": "meiye",
+  "font_family": "meiye-icon",
+  "css_prefix_text": "meiye-",
+  "description": "美业主体管理",
+  "glyphs": [
+    {
+      "icon_id": "34236380",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "34236381",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "34236416",
+      "name": "验证码",
+      "font_class": "yanzhengma",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "34236517",
+      "name": "账号",
+      "font_class": "zhanghao",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}

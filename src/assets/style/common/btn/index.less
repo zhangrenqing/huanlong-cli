@@ -1,0 +1,379 @@
+@import '~huanlong-components/theme/index.less';
+
+.table-btn-clk {
+    height: 33px;
+    // box-shadow: 0px 2px 0px 0px @btnColorshodew; 
+    box-shadow: 0px 1px 5px 0px @btnMainoutDColor, 0px 2px 4px 0px rgba(201, 155, 157, 0.1), inset 0px -2px 0px 0px @btnMainInsertDColor;
+    border-radius: 2px;
+    margin-left: 20px;
+    color: @btnMainfontDColor;
+    background: @btnMainbgDColor;
+    border: none;
+    //  border: 1px solid transparent;
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    box-sizing: border-box;
+
+    >span {
+        padding-bottom: 1px;
+    }
+
+    &:focus,
+    &:active {
+        background: @btnMainbgFColor !important;
+        color: @btnMainfontFColor !important;
+        border: none;
+    }
+
+    &:hover {
+        color: @btnMainfontHColor;
+        background: @btnMainbgHColor;
+        border: none;
+        box-shadow: 0px 1px 5px 0px @btnMainoutHColor, 0px 2px 4px 0px rgba(201, 155, 157, 0.1), inset 0px -2px 0px 0px @btnMainInsertHColor;
+    }
+}
+
+.bigbtncoll {
+    width: 104px;
+    height: 33px;
+    border-radius: 4px;
+    border: 1px solid @primaryColor;
+    font-size: 12px;
+    color: @primaryColor;
+}
+
+/deep/ .ant-upload-select-picture-card i:hover {
+    color: @primaryColor;
+}
+
+/deep/ .ant-upload-select-picture-card i:active {
+    background: @primaryColor;
+}
+
+.hedsearchbtn {
+    width: 164px;
+    height: 32px;
+
+    >.ant-input {
+        background: @input2bgDColor;
+        box-shadow: inset 0px 3px 0px 0px @input2insertDColor;
+        border-radius: 4px;
+        border: 1px solid @input2borderDColor;
+        color: @input2fontDColor;
+
+        &::placeholder {
+            color: @input2fontDColor;
+        }
+
+        &:hover,
+        &:focus {
+            border: 1px solid @input2borderHColor;
+        }
+
+    }
+
+    // .ant-input {
+    //     padding-right: 0 !important;
+    //     padding-left: 35px;
+    //     cursor: pointer;
+    // }
+
+    // .ant-input-suffix {
+    //     right: initial;
+    //     left: 12px;
+
+    //     svg {
+    //         color: @primaryColor;
+    //         font-size: 16px;
+    //     }
+    // }
+    .ant-input:not(:first-child) {
+        padding-left: 25px;
+    }
+
+    .ant-input:not(:last-child) {
+        padding-right: 25px;
+    }
+
+    .ant-input-prefix {
+        left: 8px;
+        top: 54%;
+
+        >img {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+.hedsearchbtn1 {
+    width: 374px;
+    height: 32px;
+}
+
+.hedsearchbtn2 {
+    width: 244px !important;
+    height: 32px;
+    .hedsearchbtn()
+}
+
+.hedsearchbtn3 {
+    width: 255px !important;
+    height: 32px;
+    .hedsearchbtn()
+}
+
+.hedsearchbtn4 {
+    width: 100% !important;
+    height: 32px;
+    .hedsearchbtn()
+}
+
+.statusbtn1 {
+    display: inline-block;
+    // width: 53px;
+    // height: 22px;
+    // text-align: center;
+    // line-height: 22px;
+    // background: @btnbgColor1 !important;
+    // border-radius: 4px;
+    // color: @btnColor1;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.statusbtn2 {
+    display: inline-block;
+    width: 53px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    // background: @btnbgColor2 !important;
+    border-radius: 4px;
+    color: @btnColor2;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.cancelbtn {
+    width: 42px;
+    height: 33px !important;
+    background: @baseColor;
+    border-radius: 4px;
+    color: @baseColor35;
+
+    /deep/ .ant-btn:hover {
+        color: @btnColorfont1 !important;
+        background: #FBFCFF;
+        box-shadow: 0px 2px 4px 0px rgba(204, 209, 228, 0.35), inset 0px -3px 0px 0px @baseColor36;
+        border-radius: 4px;
+        border: 1px solid @baseColor11;
+    }
+
+    &:focus,
+    &:active {
+        background: @primaryColor !important;
+        color: @baseColor25 !important;
+        border-color: @baseColor25;
+        color: @baseColor21 !important;
+    }
+}
+
+.smallbtn {
+    // width: 36px;
+    height: 25px;
+    // line-height: 26px;
+    text-align: center;
+    // color: @btnColorfont1;
+    border: 1px solid @btn2mianboderDColor;
+    box-shadow: 0px 2px 4px 0px @btn2mianOutDColor, inset 0px -2px 0px 0px @btn2mianInsertDColor;
+    // box-shadow: inset 0px -2px 0px 0px @baseColor11;
+    margin-right: 16px;
+    padding: 1px 5px 2px 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -2px;
+    font-size: 13px !important;
+    background-color: @btn2mianbgDColor;
+    color: @btn2mianfontDColor ;
+
+    &:active {
+        color: @btn2mianfontFColor !important;
+        border: 1px solid @btn2mianboderFColor !important;
+        background-color: @btn2mianbgFColor !important;
+        box-shadow: 0px 2px 4px 0px @btn2mianOutFColor, inset 0px -2px 0px 0px @btn2mianInsertFColor !important;
+    }
+
+    &:focus {
+        color: @btn2mianfontFColor !important;
+        border: 1px solid @btn2mianboderFColor !important;
+        background-color: @btn2mianbgFColor;
+        box-shadow: 0px 2px 4px 0px @btn2mianOutFColor, inset 0px -2px 0px 0px @btn2mianInsertFColor !important;
+    }
+
+    &:hover {
+        color: @btn2mianfontHColor !important;
+        border: 1px solid @btn2mianboderHColor !important;
+        background-color: @btn2mianbgHColor;
+        box-shadow: 0px 2px 4px 0px @btn2mianOutHColor, inset 0px -2px 0px 0px @btn2mianInsertHColor;
+    }
+}
+
+.small_primary {
+    background-color: @primaryColor;
+    color: #fff;
+    box-shadow: 0px 2px 3px 0px rgba(204, 209, 228, 0.48), inset 0px -2px 0px 0px #0EA166;
+
+}
+
+.smallbtn1 {
+    .smallbtn();
+    width: 42px;
+    height: 33px;
+}
+
+.smallbtn2 {
+    font-size: 14px !important;
+    height: 32px !important;
+    line-height: 32px;
+    text-align: center;
+    color: @btnColorfont1;
+    margin-left: 13px;
+}
+
+// 商家基座的btn
+
+.normalbtn {
+    height: 33px;
+    // background: #FBFCFF;
+    // box-shadow: 0px 2px 4px 0px rgba(204, 209, 228, 0.35), inset 0px -3px 0px 0px #E8EBF2 !important;
+    border-radius: 4px;
+    border: 1px solid @btn2mianboderDColor;
+    box-shadow: 0px 2px 4px 0px @btn2mianOutDColor, inset 0px -2px 0px 0px @btn2mianInsertDColor;
+    background-color: @btn2mianbgDColor;
+    color: @btn2mianfontDColor ;
+
+    &:active {
+        color: @btn2mianfontFColor !important;
+        border: 1px solid @btn2mianboderFColor !important;
+        background-color: @btn2mianbgFColor !important;
+        box-shadow: 0px 2px 4px 0px @btn2mianOutFColor, inset 0px -2px 0px 0px @btn2mianInsertFColor !important;
+
+        span {
+            color: @btn2mianfontFColor;
+        }
+    }
+
+
+    &:focus {
+        color: @btn2mianfontFColor !important;
+        border: 1px solid @btn2mianboderFColor !important;
+        background-color: @btn2mianbgFColor;
+        box-shadow: 0px 2px 4px 0px @btn2mianOutFColor, inset 0px -2px 0px 0px @btn2mianInsertFColor !important;
+
+        span {
+            color: @btn2mianfontFColor !important;
+        }
+    }
+
+    &:hover {
+        color: @btn2mianfontHColor !important;
+        border: 1px solid @btn2mianboderHColor !important;
+        background-color: @btn2mianbgHColor;
+        box-shadow: 0px 2px 4px 0px @btn2mianOutHColor, inset 0px -2px 0px 0px @btn2mianInsertHColor;
+
+        span {
+            color: @btn2mianfontHColor !important;
+        }
+    }
+}
+
+.normalPrimary {
+    height: 33px;
+    color: @btnMainfontDColor;
+    background: @btnMainbgDColor;
+    box-shadow: 0px 1px 5px 0px @btnMainoutDColor, 0px 2px 4px 0px rgba(201, 155, 157, 0.1), inset 0px -2px 0px 0px @btnMainInsertDColor;
+
+    // box-shadow: 0px 1px 5px 0px #A3A8CA, inset 0px -2px 0px 0px #2851D3;
+    border-radius: 2px;
+    // color: #F7FCFF;
+    font-weight: 500;
+    font-size: 14px;
+
+    &:active {
+        background: @btnMainbgFColor !important;
+        color: @btnMainfontFColor !important;
+        border: none;
+
+        span {
+            color: btnMainfontDColor;
+        }
+    }
+
+    &:focus {
+        // background: #3E65DE;
+        // box-shadow: 0px 1px 5px 0px #A3A8CA, inset 0px -2px 0px 0px #1E47C9;
+        background: @btnMainbgFColor !important;
+        color: @btnMainfontFColor !important;
+        border: none;
+
+        span {
+            color: btnMainfontDColor;
+        }
+    }
+
+    &:hover {
+        color: @btnMainfontHColor;
+        background: @btnMainbgHColor;
+        border: none;
+        box-shadow: 0px 1px 5px 0px @btnMainoutHColor, 0px 2px 4px 0px rgba(201, 155, 157, 0.1), inset 0px -2px 0px 0px @btnMainInsertHColor;
+
+        span {
+            color: btnMainfontHColor;
+        }
+    }
+}
+
+.addbtn {
+    height: 28px;
+    background: #FBFCFF;
+    box-shadow: 0px 2px 4px 0px rgba(204, 209, 228, 0.35), inset 0px -3px 0px 0px #E9EBF3 !important;
+    border-radius: 4px;
+    border: 1px solid @border-color-base;
+    font-size: 12px;
+    font-weight: 500;
+    color: @fontColor1;
+    line-height: 26px;
+
+    &:active {
+        color: #3A5BC2;
+        border: 1px solid #365CD1;
+        background: #F4F4F7;
+
+        span {
+            color: #3A5BC2;
+        }
+    }
+
+    &:focus {
+        color: #3A5BC2;
+        border: 1px solid #365CD1;
+        background: #F4F4F7;
+
+        span {
+            color: #3A5BC2;
+        }
+    }
+
+    &:hover {
+        color: #4666CD;
+        border: 1px solid #4666CD;
+        background: #FBFCFF;
+
+        span {
+            color: #4666CD;
+        }
+    }
+}
